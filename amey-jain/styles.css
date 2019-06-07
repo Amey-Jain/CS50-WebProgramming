@@ -1,0 +1,156 @@
+a {
+    text-decoration: none !important;
+}
+.top_bar {
+    width: 100.87%;
+    height: 55px;
+    border: solid #2C5B91;
+    border-width: 2px;
+    position: relative;
+    top:-8px;
+    left:-8px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border: solid #2C5B91;
+    width: 99.7%;
+    height: 55px;
+    border-width: 2px;
+}
+
+.flex-container > div {
+    background-color: white;
+}
+
+.h1 {
+    font-family: Montserrat;
+    font-size:27px;
+    font-weight: semibold;
+    color: #2C5B91;
+    margin: 12px 0px 12px 16px;
+}
+
+.h2 {
+    font-family: Montserrat;
+    font-size:20px;
+    font-weight: medium;
+    color: #707070;
+    margin: 16px 16px 16px 16px;
+}
+
+.h3 {
+    font-family: Montserrat;
+    font-size:24px;
+    font-weight: semibold;
+    color: #5F5F5F;
+    top: 16px;
+    left:16px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.domain_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.domain_box {
+/*    width: 621px; */
+    height: 230px;
+    width: 46.26%;
+/*    height: 36%;*/
+    max-width: 621px;
+    min-width: 523px;
+    max-height: 261px;
+    font-family: Montserrat;
+    border: solid #686868;
+    border-width: 1.5px;
+    padding: 16px;
+}
+
+.domain_box2 {
+    width: 456px;
+    height: 157px;
+    max-width: 621px;
+    min-width: 523px;
+    max-height: 261px;
+    font-family: Montserrat;
+    border: solid #686868;
+    border-width: 1.5px;
+    padding: 8px;
+}
+
+
+.link_block {
+    width: 576px;
+    height: 44px;
+    padding-bottom: 8px;
+    margin: 16px 0px 16px 0px;
+}
+
+
+.span_heading {
+    font-family: Montserrat;
+    color: #414141;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none !important;
+    padding-bottom: 8px;
+}
+
+.span_text {
+    width: 571px;
+    height: 34px;
+    font-family: Montserrat;
+    color: #414141;
+    font-size: 16px;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    max-width: 580px;
+    overflow: hidden;
+    display: block;
+    white-space: hidden;
+    padding-bottom: 8px;
+}
+
+
+.bottom_bar {
+    width: 99.7%;
+    height: 47.7px;
+    position: fixed;
+    border: solid #2C5B91;
+    border-width: 2px;
+    bottom:0px;
+    left:0px;
+}
+
+.contact_me_block {
+    height: 32px;
+    width: 110px;
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+.contact_me_image {
+    height: auto;
+    width: auto;
+    padding: 8px ;
+    
+}
+
+.contact_me_text {
+    font-family: Montserrat;
+    font-weight: regular;
+    color: #707070;
+    font-size: 16px;
+    position: absolute;
+    padding: 14px 0px 8px 0px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My webpage </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class = "top_bar"> Top bar </div>
+
+    <table align="center" style="width:50%; table-layout:fixed;">
+      <tr>
+	<td style="height: 200px; width:50%">
+	  <div>
+	    <span class="span_heading"> Audiofingerprinting </span>
+	    <br>
+	    <span class="span_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu  </span>
+	    <span class="span_text"> TECHNOLOGY </span>
+	  </div>
+	</td>
+      </tr>
+    </table>    
+    <div class = "bottom_bar"> Bottom bar </div>
+  </body>
+</html>
