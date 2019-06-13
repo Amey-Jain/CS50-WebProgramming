@@ -1,3 +1,14 @@
+
+/* For mobiles */
+@media (max-width: 767px) {
+    background-color: blue;
+}
+
+/* For desktop/tablets */
+@media (min-width: 768px) {
+    background-color: teal;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -10,23 +21,37 @@ a {
     top:-8px;
     left:-8px;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
 }
- 
-h1 {
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border: solid #2C5B91;
+    width: 99.7%;
+    height: 55px;
+    border-width: 2px;
+}
+
+.flex-container > div {
+    background-color: white;
+}
+
+.h1 {
     font-family: Montserrat;
     font-size:27px;
     font-weight: semibold;
     color: #2C5B91;
-    position: absolute;
-    top: -8px;
-    left: 32px;
+    margin: 12px 0px 12px 16px;
 }
 
-h2 {
+.h2 {
     font-family: Montserrat;
     font-size:20px;
     font-weight: medium;
     color: #707070;
+    margin: 16px 16px 16px 16px;
 }
 
 .h3 {
@@ -122,14 +147,13 @@ h2 {
     height: 32px;
     width: 110px;
     display: inline-block;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding: 2px 16px;
 }
 
 .contact_me_image {
     height: auto;
     width: auto;
-    padding: 12px 8px 0px 4px ;
+    padding: 8px ;
     
 }
 
