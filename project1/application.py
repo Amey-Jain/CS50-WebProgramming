@@ -25,7 +25,7 @@ db = scoped_session(sessionmaker(bind=engine))
 def index():
     if bool(session) == False:
         #no users logged in
-        return render_template("index.html")
+        return render_template("login.html")
     else :
         #login as first user
         return logged_in(session[session.keys()[0]])
@@ -75,7 +75,7 @@ def logged_in(uname):
     if uname in session:
         return "logged in as %s" %uname
     else:
-        return render_template("index.html")
+        return render_template("login.html")
 
 @app.route("/login", methods=["GET"])
 def login_page():
